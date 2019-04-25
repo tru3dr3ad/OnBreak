@@ -17,7 +17,6 @@ C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\bin\Debug\Newto
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\bin\Debug\BibliotecaClases.pdb
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\bin\Debug\Newtonsoft.Json.xml
-C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\obj\Debug\BibliotecaControlador.csprojAssemblyReference.cache
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\obj\Debug\BibliotecaControlador.csproj.CoreCompileInputs.cache
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\obj\Debug\BibliotecaControlador.csproj.CopyComplete
 C:\Users\krist\Desktop\Mio\SolucionOnbreak\BibliotecaControlador\obj\Debug\BibliotecaControlador.dll

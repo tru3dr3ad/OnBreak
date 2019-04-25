@@ -27,8 +27,7 @@ namespace BibliotecaControlador
             foreach (Serie item in ufDatos.serie)
             {
                 uf = item.valor;
-            }
-            // uf = uf.Replace('.', ','); 
+            } 
             double ufValor = double.Parse(uf);
             return ufValor;
         }
@@ -76,7 +75,7 @@ namespace BibliotecaControlador
                     int restaPersonal = evento.RecargoPersonal - 4;
                     valorPersonal = ((restaPersonal * 0.5) * uf )+ sumar;
                 }
-                double totalEvento = valorBase + valorPersonal + valorAsistentes;
+                double totalEvento = Math.Round(valorBase + valorPersonal + valorAsistentes);
                 return totalEvento;
             }
             catch (Exception)
