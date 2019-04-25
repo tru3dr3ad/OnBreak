@@ -1,0 +1,39 @@
+﻿<Controls:MetroWindow x:Class="Vista.WpfContrato"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:toolkit="clr-namespace:Xceed.Wpf.Toolkit;assembly=WPFToolkit.Extended"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vista"
+        mc:Ignorable="d"
+        Title="Contrato" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="txtNroContrato" HorizontalAlignment="Left" Height="23" Margin="145,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+        <Label Content="Nro Contrato:" HorizontalAlignment="Left" Margin="59,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha Inicio:" HorizontalAlignment="Left" Margin="59,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hora Inicio:" HorizontalAlignment="Left" Margin="59,115,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDireccionContrato" HorizontalAlignment="Left" Height="23" Margin="145,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Direccion:" HorizontalAlignment="Left" Margin="59,148,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEstaVigente" HorizontalAlignment="Left" Height="23" Margin="401,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+        <Label Content="Vigente:" HorizontalAlignment="Left" Margin="315,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha Termino:" HorizontalAlignment="Left" Margin="315,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hora Termino:" HorizontalAlignment="Left" Margin="315,115,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEvento" HorizontalAlignment="Left" Height="23" Margin="401,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+        <Label Content="Evento:" HorizontalAlignment="Left" Margin="315,148,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtObservaciones" HorizontalAlignment="Left" Height="179" Margin="145,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401"/>
+        <Label Content="Observaciones:" HorizontalAlignment="Left" Margin="59,179,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEvento" Content="..." HorizontalAlignment="Left" Margin="554,148,0,0" VerticalAlignment="Top" Width="31" Height="26" ToolTip="Agrega un evento" Click="BtnEvento_Click"/>
+        <Button x:Name="btnAgregarContrato" Content="AGREGAR" HorizontalAlignment="Left" Margin="611,91,0,0" VerticalAlignment="Top" Width="99" Click="BtnAgregarContrato_Click"/>
+        <Button x:Name="btnTerminarContrato" Content="TERMINAR" HorizontalAlignment="Left" Margin="611,168,0,0" VerticalAlignment="Top" Width="99" Click="BtnTerminarContrato_Click"/>
+        <Button x:Name="btnModificarContrato" Content="MODIFICAR" HorizontalAlignment="Left" Margin="611,130,0,0" VerticalAlignment="Top" Width="99" Click="BtnModificarContrato_Click"/>
+        <Button x:Name="btnBuscarContrato" Content="BUSCAR" HorizontalAlignment="Left" Margin="611,53,0,0" VerticalAlignment="Top" Width="99"/>
+        <DatePicker x:Name="dtpFechaInicio" HorizontalAlignment="Left" Margin="145,85,0,0" VerticalAlignment="Top" SelectedDateFormat="Short"/>
+        <Controls:TimePicker x:Name="dtpHoraInicio" Height="25" Margin="145,115,504,280"/>
+        <DatePicker x:Name="dtpFechaTermino" HorizontalAlignment="Left" Margin="401,85,0,0" VerticalAlignment="Top"/>
+        <Controls:TimePicker x:Name="dtpHoraTermino" Height="25" Margin="401,116,248,279"/>
+
+    </Grid>
+</Controls:MetroWindow>

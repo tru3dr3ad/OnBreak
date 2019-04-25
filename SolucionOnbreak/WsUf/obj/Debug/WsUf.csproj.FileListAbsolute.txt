@@ -1,0 +1,13 @@
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\WsUf.dll.config
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\WsUf.dll
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\WsUf.pdb
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\obj\Debug\WsUf.csprojAssemblyReference.cache
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\obj\Debug\WsUf.csproj.CoreCompileInputs.cache
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\obj\Debug\WsUf.dll
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\obj\Debug\WsUf.pdb
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\BibliotecaClases.dll
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\Newtonsoft.Json.dll
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\BibliotecaClases.pdb
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\Newtonsoft.Json.pdb
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\bin\Newtonsoft.Json.xml
+C:\Users\krist\source\repos\SolucionOnbreak\WsUf\obj\Debug\WsUf.csproj.CopyComplete
